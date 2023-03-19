@@ -13,7 +13,7 @@ Al conjunto A se le denomina dominio y al conjunto B como rango. En programació
 + Mejorar la abstracción de un proceso.
 
 ### Funciones en python 
-Para declarar una función se utiliza la palabra reservada *def* seguida del nombre de la función, el cual debe ser un identificador válido (revisar clase 6), en paréntesis se listan los argumentos y se sigue con *:*, se indetan las instrucciones y si la función retorna algo se usa la palabra reservada *return*.
+Para declarar una función se utiliza la palabra reservada *def* seguida del nombre de la función, el cual debe ser un identificador válido (revisar clase 6), en paréntesis se listan los argumentos y se sigue con *:*, se indentan las instrucciones y si la función retorna algo se usa la palabra reservada *return*.
 
 ```python
 def nombreDeLaFuncion(arg1, arg2, ... , argn):
@@ -28,7 +28,7 @@ $$f(x) \rightarrow x^2$$
 def elevarCuadrado(x:float):
   return x**2
 ```
-El flujo normal de un progama **secuencial** en python luce de esta manera:
+El flujo normal de un programa **secuencial** en python luce de esta manera:
 ```python
 <importar librerias>
 <declarar constantes>
@@ -38,7 +38,7 @@ El flujo normal de un progama **secuencial** en python luce de esta manera:
 <ejecurtar procesos> # Implica llamar a las funciones declaradas
 ```
 ### La función main
-Es la función principal de cualquier programa escrito en python que se quiera ejecutar como script, es el denomiando *entry point*. La sintaxis es:
+Es la función principal de cualquier programa escrito en python que se quiera ejecutar como script, es el denominado *entry point*. La sintaxis es:
 
 ```python
 if __name__ == "__main__":
@@ -54,7 +54,7 @@ int main(void){
 }
 ```
 
-**Ejemplo:** Escribir un programa que ingrese un flotante por teclado y usando una funcion retorne el cuadrado del número.
+**Ejemplo:** Escribir un programa que ingrese un flotante por teclado y usando una función retorne el cuadrado del número.
 
 ```python
 def elevarCuadrado(x:float) -> float:
@@ -145,7 +145,7 @@ def sumarDosNumeros(x:float, y:float) -> float:
   return x+y
 ```
 
-El archivo [calculadora.py](/calculadora.py) en la línea 1 importa todas la funciones de operaciones usando el simbolo (*). Alternativamente se podría usar `from operaciones import elevarCuadrado` y solo traeria la función elevar al cuadrado.
+El archivo [calculadora.py](/calculadora.py) en la línea 1 importa todas la funciones de operaciones usando el símbolo (*). Alternativamente se podría usar `from operaciones import elevarCuadrado` y solo traería la función elevar al cuadrado.
 
 ```python
 from operaciones import *
@@ -199,7 +199,7 @@ Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa 
 <figcaption><b></b></figcaption></figure>
 </div>
 
-+ Una función matemática para calcular el área y el perimetro.
++ Una función matemática para calcular el área y el perímetro.
 + Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado `r`, `a` y `b`.
 + Revise como utilizar el valor de `pi` usando *import math* y *math.pi*
 
